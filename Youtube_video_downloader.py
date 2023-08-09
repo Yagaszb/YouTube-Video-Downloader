@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from pytube import YouTube
+import os
 
 selected_directory = ""
 
@@ -33,7 +34,6 @@ def download_video():
 
 app = tk.Tk()
 app.title("YouTube Video Downloader")
-app.iconphoto(False, tk.PhotoImage(file='C:\\Users\\Bence\\Desktop\\CodeCool\\Python\\Youtube video downloader\\icon.png'))
 
 madeby_label = tk.Label(app, text="Made by Yagi")
 madeby_label.pack()
